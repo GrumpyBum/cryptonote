@@ -75,8 +75,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by def
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  200;    //by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
-const int      P2P_DEFAULT_PORT                              = 501484;
-const int      RPC_DEFAULT_PORT                              = 501485;
+const int      P2P_DEFAULT_PORT                              = 51484;
+const int      RPC_DEFAULT_PORT                              = 51485;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -95,9 +95,9 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  "121.73.12.60:501484",
-  "121.73.12.60:501486",
-  "121.73.12.60:501487"
+  "121.73.12.60:51484",
+  "121.73.12.60:51486",
+  "121.73.12.60:51487"
 };
 
 struct CheckpointData {

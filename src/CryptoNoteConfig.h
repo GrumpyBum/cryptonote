@@ -65,7 +65,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "shc_miner_conf.j
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "Harrier";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001a0ccd705029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121010e93b2636d466e11934eb6fa4ff21e5c8b9d9310f5361581038bc5a85092559f";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;

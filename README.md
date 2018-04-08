@@ -23,11 +23,13 @@ To build, change to a directory where this file is located, and run `make`. The 
 * Building with Clang: it may be possible to use Clang instead of GCC, but this may not work everywhere. To build, run `export CC=clang CXX=clang++` before running `make`.
 
 ### On Windows
-Dependencies: MSVC 2013 or later, CMake 2.8.6 or later, and Boost 1.55. You may download them from:
+Dependencies: MSVC 2013 or later, CMake 2.8.6 or later, Boost 1.55, Python 2.7.14, and QT5.0.2. You may download them from:
 
 * http://www.microsoft.com/
 * http://www.cmake.org/
 * http://www.boost.org/
+* https://www.python.org
+* https://www.qt.io/
 
 To build, change to a directory where this file is located, and run theas commands: 
 ```
@@ -35,6 +37,7 @@ mkdir build
 cd build
 cmake -G "Visual Studio 12 Win64" ..
 ```
+Once built the build directory is available to be compiled in Visual Studio 2013
 
 And then do Build.
 Good luck!

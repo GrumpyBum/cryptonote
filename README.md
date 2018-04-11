@@ -2,16 +2,16 @@ Referance for Building Harrier.Coin Harraier Tech Project Daemon's and Miners
 
 ## Building Harrier.Coin 
 
-### On *nix
+### On Ubuntu 16.04 LTS
 
-Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, and Boost 1.55.
+Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, and Boost 1.58.
 
 You may download them from:
 
 * http://gcc.gnu.org/
 * http://www.cmake.org/
 * http://www.boost.org/
-* Alternatively, it may be possible to install them using a package manager.
+* Or 'apt-get install build-essential cmake libboost1.58-all-dev'
 
 To build, change to a directory where this file is located, and run `make`. The resulting executables can be found in `build/release/src`.
 
@@ -23,7 +23,7 @@ To build, change to a directory where this file is located, and run `make`. The 
 * Building with Clang: it may be possible to use Clang instead of GCC, but this may not work everywhere. To build, run `export CC=clang CXX=clang++` before running `make`.
 
 ### On Windows
-Dependencies: MSVC 2013 or later, CMake 2.8.6 or later, Boost 1.55, Python 2.7.14, and QT5.0.2. You may download them from:
+Dependencies: MSVC 2013 or later, CMake 2.8.6 or later, Boost 1.55, Python 2.7.14, and QT5.0.2 (For GUI Wallet Only). You may download them from:
 
 * http://www.microsoft.com/
 * http://www.cmake.org/

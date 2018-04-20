@@ -1,4 +1,6 @@
-Referance for Building Harrier.Coin Harraier Tech Project Daemon's and Miners
+Referance for Building Harrier.Coin Harraier Tech Project Daemon's and Miners.
+Harrier Coin is been built for Ubuntu Linux and Windows Operating Systems and is Managed by http://harrier.tech
+In building Harrier Coin please be aware of the Harrier GUI Wallet, https://github.com/GrumpyBum/harrier.wallet
 
 ## Building Harrier.Coin 
 
@@ -28,6 +30,8 @@ Dependencies: MSVC 2013 or later, CMake 2.8.6 or later, Boost 1.55, Python 2.7.1
 * http://www.microsoft.com/
 * http://www.cmake.org/
 * http://www.boost.org/
+
+For GUI Functionality of Harrier Coin, CLI will build fine without the following:
 * https://www.python.org
 * https://www.qt.io/
 

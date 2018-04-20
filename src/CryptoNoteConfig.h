@@ -95,9 +95,10 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  "121.73.12.60:51484",
-  "45.77.67.34:51484",
-  "121.73.12.60:51487"
+  "121.73.12.60:51484", // Primary Node, Source Build for Ubuntu 16.04 LTS
+  "45.77.67.34:51484", // JOFTA Node, International Redundancy of SHC
+  "121.73.12.60:51486", // Windows Node, Source Build for Windows Server 2016
+  "121.73.12.60:51487" // Legacy Support Node, Source Build for Ubuntu 14.04 LTS
 };
 
 struct CheckpointData {

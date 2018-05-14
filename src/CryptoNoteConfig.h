@@ -32,7 +32,7 @@ const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 9;
 const uint64_t MINIMUM_FEE                                   = 0.01;
 const uint64_t DEFAULT_DUST_THRESHOLD                        = MINIMUM_FEE;
 
-const uint64_t DIFFICULTY_TARGET                             = 120; // seconds
+const uint64_t DIFFICULTY_TARGET                             = 123; // seconds
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
 
 const size_t   DIFFICULTY_WINDOW                             = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY; // blocks
@@ -65,7 +65,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "shc_miner_conf.j
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "Harrier";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001a0ccd705029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121010e93b2636d466e11934eb6fa4ff21e5c8b9d9310f5361581038bc5a85092559f";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff000185d1ddef08029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121016d42fa1ac66f3b3cf2931517ed54268e0b824698fb2fc2d48b172806e04d8f09";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
@@ -95,9 +95,10 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  "121.73.12.60:51484", // Primary Node, Source Build for Ubuntu 16.04 LTS
-  "45.77.67.34:51484", // JOFTA Node, International Redundancy of SHC
-  "121.73.12.60:51486", // Windows Node, Source Build for Windows Server 2016
+  "121.73.12.60:51499", // TEMP Build IP for Initial Sync 
+  //"121.73.12.60:51484", // Primary Node, Source Build for Ubuntu 16.04 LTS
+  //"45.77.67.34:51484", // JOFTA Node, International Redundancy of SHC
+  //"121.73.12.60:51486", // Windows Node, Source Build for Windows Server 2016
 };
 
 struct CheckpointData {
